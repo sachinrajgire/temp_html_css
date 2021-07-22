@@ -2,16 +2,70 @@ body {
     background-color: lightblue;
     font-family: 'Verdana', sans-serif;
     /* font-size: 16px; */
-    margin:0 200px;
+    /* margin:0 200px; */
     text-align: center;
+    margin:0 auto;
     
+}
 
-  }
+.hero,iframe {
+    text-align: center;
+    margin:0 auto;
+    background-color: lightcyan;
+    border-bottom: 5px solid black;
 
+}
+.table {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    min-height: 150px;
+    border-bottom: 5px solid black;
+
+
+    
+}
+
+.curr {
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    min-height: 200px;
+    border-bottom: 5px solid black;
+
+}
+
+#contactussection {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    min-height: 200px;
+    border-bottom: 5px solid black;
+    
+}
 
 a {
     text-decoration: none;
     color:green;
+}
+
+.logo {
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.explain {
+    background-color: lightcoral;
+    background-color: #000000;
+    background-color: #ffffff;
+    background-color:rgb(255,0,255);
+    min-height: 200px;
+    border-bottom: 5px solid black;
+    
+
+
+
 }
 
 a:link {
