@@ -216,6 +216,7 @@ float:right
 }
 .tophero1 {
     position: relative;
+    /* margin:20px; */
 }
 
 .tophero1 img {
@@ -234,8 +235,45 @@ height: 50px;
 width: 100px;
 padding: 30px;
 transform: translate(-50%,-50%);
+/* padding: 5px;
+margin:5px */
 }
 
 .logo {
     z-index: 1000;
 }
+
+/* sm:5px
+med:10px
+ls:15px
+xl:20px */
+.psm {
+    margin:40px;
+}
+
+.msm {
+margin:5px;
+}
+
+
+
+.ariel {
+    font-family:Arial;
+}
+
+.helvetica {
+    font-family:Helvetica;
+}
+
+.original {
+    color: brown;
+    font-weight: 200;
+}
+
+.newclass {
+    color: orange;
+    font-weight: 800;
+}
+
+
+
